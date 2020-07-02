@@ -8,4 +8,4 @@ steps:
     - --trigger-http
     - --runtime=go111
     - --region=europe-west1
-    - --entry-point=helloGet
+    - --entry-point=HelloGet
