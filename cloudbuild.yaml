@@ -6,3 +6,6 @@ steps:
     - function-test
     - --source=.
     - --trigger-http
+    - --runtime=go111
+    - --region=europe-west1
+    - --entry-point=helloGet
