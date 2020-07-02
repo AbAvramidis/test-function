@@ -7,3 +7,5 @@ steps:
     - --source=https://source.developers.google.com/projects/$PROJECT_ID/repos/github_joshua9519_test-function/moveable-aliases/master/paths/
     - --trigger-http
     - --runtime=go111
+    - --region=europe-west1
+    - --entry-point=HelloGet
