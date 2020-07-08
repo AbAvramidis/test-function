@@ -9,3 +9,5 @@ steps:
     - --runtime=go111
     - --region=europe-west1
     - --entry-point=HelloGet
+    - --allow-unauthenticated
+    - --ingress-settings=internal-only
